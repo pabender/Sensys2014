@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.5.4ish-201608261450-paul-Rf7107c8 on Fri Aug 26 10:57:00 EDT 2016 $Id$-->
+  <routes>
+    <route id="1" name="switcher" comment="">
+      <location id="1r2" name="Main Track" locationId="2" sequenceId="1" trainDirection="1" maxTrainLength="200" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" trainIconX="0" trainIconY="0" comment="" />
+      <location id="1r1" name="Yard" locationId="1" sequenceId="2" trainDirection="1" maxTrainLength="200" grade="0.0" maxCarMoves="5" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" trainIconX="0" trainIconY="0" comment="" />
+      <location id="1r3" name="Main Track" locationId="2" sequenceId="3" trainDirection="2" maxTrainLength="200" grade="0.0" maxCarMoves="50" randomControl="Off" pickups="yes" drops="yes" wait="0" departTime="" trainIconX="0" trainIconY="0" comment="" />
+    </route>
+  </routes>
+</operations-config>

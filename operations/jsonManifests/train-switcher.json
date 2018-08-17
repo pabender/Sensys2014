@@ -1,0 +1,167 @@
+{
+  "railroad" : "RFID Test Layout",
+  "name" : "switcher",
+  "description" : "",
+  "locations" : [ {
+    "name" : "Main Track",
+    "id" : "1r2",
+    "departureTime" : "00:00",
+    "location" : {
+      "comment" : "",
+      "id" : "2"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ {
+        "id" : "BN710",
+        "number" : "710",
+        "road" : "BN",
+        "type" : "Diesel",
+        "length" : "50",
+        "color" : "",
+        "owner" : "",
+        "comment" : "",
+        "location" : {
+          "name" : "Main Track",
+          "id" : "2",
+          "route" : "1r2",
+          "track" : {
+            "name" : "Main Track",
+            "id" : "2s1"
+          }
+        },
+        "destination" : {
+          "name" : "Main Track",
+          "id" : "2",
+          "route" : "1r3",
+          "track" : {
+            "name" : "Main Track",
+            "id" : "2s1"
+          }
+        },
+        "model" : "F7",
+        "consist" : ""
+      } ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 1,
+    "length" : {
+      "length" : 54,
+      "unit" : "Feet"
+    },
+    "weight" : 115,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 0,
+      "loads" : 0,
+      "empties" : 0
+    }
+  }, {
+    "name" : "Yard",
+    "id" : "1r1",
+    "arrivalTime" : "00:04",
+    "expectedDepartureTime" : "00:04",
+    "location" : {
+      "comment" : "",
+      "id" : "1"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 1,
+    "length" : {
+      "length" : 54,
+      "unit" : "Feet"
+    },
+    "weight" : 115,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 0,
+      "loads" : 0,
+      "empties" : 0
+    }
+  }, {
+    "name" : "Yard",
+    "id" : "1r4",
+    "arrivalTime" : "00:04",
+    "expectedDepartureTime" : "00:04",
+    "location" : {
+      "comment" : "",
+      "id" : "1"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ ]
+    },
+    "track" : { },
+    "trainDirection" : 2,
+    "length" : {
+      "length" : 54,
+      "unit" : "Feet"
+    },
+    "weight" : 115,
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ],
+      "total" : 0,
+      "loads" : 0,
+      "empties" : 0
+    }
+  }, {
+    "name" : "Main Track",
+    "id" : "1r3",
+    "arrivalTime" : "00:08",
+    "expectedDepartureTime" : "00:08",
+    "location" : {
+      "comment" : "",
+      "id" : "2"
+    },
+    "comment" : "",
+    "engines" : {
+      "add" : [ ],
+      "remove" : [ {
+        "id" : "BN710",
+        "number" : "710",
+        "road" : "BN",
+        "type" : "Diesel",
+        "length" : "50",
+        "color" : "",
+        "owner" : "",
+        "comment" : "",
+        "location" : {
+          "name" : "Main Track",
+          "id" : "2",
+          "route" : "1r2",
+          "track" : {
+            "name" : "Main Track",
+            "id" : "2s1"
+          }
+        },
+        "destination" : {
+          "name" : "Main Track",
+          "id" : "2",
+          "route" : "1r3",
+          "track" : {
+            "name" : "Main Track",
+            "id" : "2s1"
+          }
+        },
+        "model" : "F7",
+        "consist" : ""
+      } ]
+    },
+    "TrainTerminatesIn" : "Main Track",
+    "cars" : {
+      "add" : [ ],
+      "remove" : [ ]
+    }
+  } ],
+  "date" : "2016-08-26T15:40:21Z"
+}

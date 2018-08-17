@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSONServerPreferences heartbeatInterval="15000" port="2056">
+  <!--Written by JMRI version 20150415-2112-faculty on Wed Apr 15 16:18:06 CDT 2015 $Id: XmlFile.java 28771 2015-02-22 16:58:13Z rhwood $-->
+</JSONServerPreferences>

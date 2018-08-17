@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.ieee802154.xbee.configurexml.ConnectionConfigXml" disabled="no" manufacturer="IEEE 802.15.4" port="/dev/ttyUSB0" speed="57,600 baud" systemPrefix="Z" userName="XBee">
+            <options/>
+            <node name="1">
+                <parameter name="address">00 01 </parameter>
+                <parameter name="PAN">33 32 </parameter>
+                <parameter name="GUID">00 13 A2 00 40 60 BC E6 </parameter>
+                <parameter name="name">SPROG</parameter>
+                <parameter name="polled">no</parameter>
+                <parameter name="StreamController">jmri.jmrix.sprog.SprogCSStreamPortController</parameter>
+            </node>
+            <node name="16">
+                <parameter name="address">00 10 </parameter>
+                <parameter name="PAN">33 32 </parameter>
+                <parameter name="GUID">00 13 A2 00 40 3D 44 1C </parameter>
+                <parameter name="name">YARD INPUT</parameter>
+                <parameter name="polled">no</parameter>
+            </node>
+            <node name="2">
+                <parameter name="address">00 02 </parameter>
+                <parameter name="PAN">33 32 </parameter>
+                <parameter name="GUID">FF FF FF FF FF FF FF FF </parameter>
+                <parameter name="name"/>
+                <parameter name="polled">no</parameter>
+            </node>
+            <node name="2">
+                <parameter name="address">00 02 </parameter>
+                <parameter name="PAN">33 32 </parameter>
+                <parameter name="GUID">FF FF FF FF FF FF FF FF </parameter>
+                <parameter name="name"/>
+                <parameter name="polled">no</parameter>
+            </node>
+        </connection>
+    </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-2-9-6.xsd">
+        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" name="jmri.configurexml.LoadXmlConfigAction" type="Button"/>
+        <perform xmlns="" class="apps.configurexml.PerformScriptModelXml" name="settings:sensys-2014/XBeeRfidSystemConnectionTest.py" type="ScriptFile"/>
+    </startup>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" name="jmri.configurexml.LoadXmlConfigAction" type="Button">
+            <property name="systemPrefix" value=""/>
+        </perform>
+        <perform xmlns="" class="apps.configurexml.PerformScriptModelXml" name="settings:sensys-2014/XBeeRfidSystemConnectionTest.py" type="ScriptFile"/>
+    </startup>
+</auxiliary-configuration>

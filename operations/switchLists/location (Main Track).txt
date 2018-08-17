@@ -1,0 +1,19 @@
+RFID Test Layout
+ 
+Switch List for Main Track
+Valid 8/26/2016 11:40
+ 
+Scheduled work for train (switcher)
+Departs Main Track Eastbound at 00:00
+ [ ] Pick up BN 710 F7 from Main Track 
+Train departs Main Track Eastbound with 0 cars, 54 feet, 115 tons
+ 
+Visit number 2 for train (switcher) expected arrival 00:08, terminates Main Track
+ [ ] Set out BN 710 F7 to Main Track 
+No car pick ups for train (switcher) at this location
+No car set outs for train (switcher) at this location
+ 
+ 
+Switch List by Track
+ 
+Main Track

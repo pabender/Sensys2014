@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.ieee802154.xbee.configurexml.ConnectionConfigXml" disabled="no" manufacturer="IEEE 802.15.4" port="/dev/ttyUSB0" speed="57,600 baud" systemPrefix="Z" userName="XBee">
+            <options/>
+            <node name="1">
+                <parameter name="address">00 01 </parameter>
+                <parameter name="PAN">00 00 </parameter>
+                <parameter name="GUID">00 13 A2 00 40 60 BC E6 </parameter>
+                <parameter name="name">SPROG</parameter>
+                <parameter name="polled">no</parameter>
+                <parameter name="StreamController">jmri.jmrix.sprog.SprogCSStreamPortController</parameter>
+            </node>
+            <node name="2">
+                <parameter name="address">00 02 </parameter>
+                <parameter name="PAN">00 00 </parameter>
+                <parameter name="GUID">00 00 00 00 00 00 00 00 </parameter>
+                <parameter name="name">RFID</parameter>
+                <parameter name="polled">no</parameter>
+            </node>
+            <node name="16">
+                <parameter name="address">00 10 </parameter>
+                <parameter name="PAN">00 00 </parameter>
+                <parameter name="GUID">00 13 A2 00 40 3D 44 1C </parameter>
+                <parameter name="name">YARD INPUT</parameter>
+                <parameter name="polled">no</parameter>
+            </node>
+        </connection>
+    </connections>
+</auxiliary-configuration>

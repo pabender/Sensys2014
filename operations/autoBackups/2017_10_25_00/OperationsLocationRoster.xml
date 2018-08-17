@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
+<operations-config>
+  <!--Written by JMRI version 4.5.4ish-201608261536-paul-Rae003aa on Fri Aug 26 11:41:24 EDT 2016 $Id$-->
+  <locations>
+    <location id="1" name="Yard" ops="1" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="Baggage" />
+        <carType name="Boxcar" />
+        <carType name="Caboose" />
+        <carType name="Coal" />
+        <carType name="Coilcar" />
+        <carType name="FlatBHPaper" />
+        <carType name="FlatBHWood" />
+        <carType name="FlatBulkHead" />
+        <carType name="FlatTimber" />
+        <carType name="FlatTrailer" />
+        <carType name="FlatWood" />
+        <carType name="Flatcar" />
+        <carType name="Gon-scrap" />
+        <carType name="Gondola" />
+        <carType name="HopChem" />
+        <carType name="HopCmnt" />
+        <carType name="HopCoal" />
+        <carType name="HopCoal-Ety" />
+        <carType name="HopGrain" />
+        <carType name="HopSand" />
+        <carType name="Hopper" />
+        <carType name="MOW" />
+        <carType name="MOWBox" />
+        <carType name="Passenger" />
+        <carType name="ReefMech" />
+        <carType name="Reefer" />
+        <carType name="ReeferIce" />
+        <carType name="Stock" />
+        <carType name="Tank Food" />
+        <carType name="Tank Gas" />
+        <carType name="Tank Kero" />
+        <carType name="Tank Oil" />
+        <carType name="Tank Veg" />
+        <locoType name="Diesel" />
+        <locoType name="Electric" />
+        <locoType name="Engine" />
+        <locoType name="Gas Turbine" />
+        <locoType name="Steam" />
+        <locoType name="Steam-heavy" />
+        <locoType name="Steam-light" />
+        <locoType name="Steam-mixed" />
+        <locoType name="Steam-pass" />
+        <locoType name="Switcher" />
+      </types>
+      <track id="1s2" name="T2" locType="Interchange" dir="15" length="200" moves="3" blockingOrder="0" onlyCarWithFD="false" order="LIFO">
+        <types>
+          <carType name="Baggage" />
+          <carType name="Boxcar" />
+          <carType name="Caboose" />
+          <carType name="Coal" />
+          <carType name="Coilcar" />
+          <carType name="FlatBHPaper" />
+          <carType name="FlatBHWood" />
+          <carType name="FlatBulkHead" />
+          <carType name="FlatTimber" />
+          <carType name="FlatTrailer" />
+          <carType name="FlatWood" />
+          <carType name="Flatcar" />
+          <carType name="Gon-scrap" />
+          <carType name="Gondola" />
+          <carType name="HopChem" />
+          <carType name="HopCmnt" />
+          <carType name="HopCoal" />
+          <carType name="HopCoal-Ety" />
+          <carType name="HopGrain" />
+          <carType name="HopSand" />
+          <carType name="Hopper" />
+          <carType name="MOW" />
+          <carType name="MOWBox" />
+          <carType name="Passenger" />
+          <carType name="ReefMech" />
+          <carType name="Reefer" />
+          <carType name="ReeferIce" />
+          <carType name="Stock" />
+          <carType name="Tank Food" />
+          <carType name="Tank Gas" />
+          <carType name="Tank Kero" />
+          <carType name="Tank Oil" />
+          <carType name="Tank Veg" />
+          <locoType name="Diesel" />
+          <locoType name="Electric" />
+          <locoType name="Engine" />
+          <locoType name="Gas Turbine" />
+          <locoType name="Steam" />
+          <locoType name="Steam-heavy" />
+          <locoType name="Steam-light" />
+          <locoType name="Steam-mixed" />
+          <locoType name="Steam-pass" />
+          <locoType name="Switcher" />
+        </types>
+      </track>
+      <track id="1s3" name="T1" locType="Interchange" dir="15" length="250" moves="3" blockingOrder="0" onlyCarWithFD="false" order="LIFO">
+        <types>
+          <carType name="Baggage" />
+          <carType name="Boxcar" />
+          <carType name="Caboose" />
+          <carType name="Coal" />
+          <carType name="Coilcar" />
+          <carType name="FlatBHPaper" />
+          <carType name="FlatBHWood" />
+          <carType name="FlatBulkHead" />
+          <carType name="FlatTimber" />
+          <carType name="FlatTrailer" />
+          <carType name="FlatWood" />
+          <carType name="Flatcar" />
+          <carType name="Gon-scrap" />
+          <carType name="Gondola" />
+          <carType name="HopChem" />
+          <carType name="HopCmnt" />
+          <carType name="HopCoal" />
+          <carType name="HopCoal-Ety" />
+          <carType name="HopGrain" />
+          <carType name="HopSand" />
+          <carType name="Hopper" />
+          <carType name="MOW" />
+          <carType name="MOWBox" />
+          <carType name="Passenger" />
+          <carType name="ReefMech" />
+          <carType name="Reefer" />
+          <carType name="ReeferIce" />
+          <carType name="Stock" />
+          <carType name="Tank Food" />
+          <carType name="Tank Gas" />
+          <carType name="Tank Kero" />
+          <carType name="Tank Oil" />
+          <carType name="Tank Veg" />
+          <locoType name="Diesel" />
+          <locoType name="Electric" />
+          <locoType name="Engine" />
+          <locoType name="Gas Turbine" />
+          <locoType name="Steam" />
+          <locoType name="Steam-heavy" />
+          <locoType name="Steam-light" />
+          <locoType name="Steam-mixed" />
+          <locoType name="Steam-pass" />
+          <locoType name="Switcher" />
+        </types>
+      </track>
+    </location>
+    <location id="2" name="Main Track" ops="2" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="Baggage" />
+        <carType name="Boxcar" />
+        <carType name="Caboose" />
+        <carType name="Coal" />
+        <carType name="Coilcar" />
+        <carType name="FlatBHPaper" />
+        <carType name="FlatBHWood" />
+        <carType name="FlatBulkHead" />
+        <carType name="FlatTimber" />
+        <carType name="FlatTrailer" />
+        <carType name="FlatWood" />
+        <carType name="Flatcar" />
+        <carType name="Gon-scrap" />
+        <carType name="Gondola" />
+        <carType name="HopChem" />
+        <carType name="HopCmnt" />
+        <carType name="HopCoal" />
+        <carType name="HopCoal-Ety" />
+        <carType name="HopGrain" />
+        <carType name="HopSand" />
+        <carType name="Hopper" />
+        <carType name="MOW" />
+        <carType name="MOWBox" />
+        <carType name="Passenger" />
+        <carType name="ReefMech" />
+        <carType name="Reefer" />
+        <carType name="ReeferIce" />
+        <carType name="Stock" />
+        <carType name="Tank Food" />
+        <carType name="Tank Gas" />
+        <carType name="Tank Kero" />
+        <carType name="Tank Oil" />
+        <carType name="Tank Veg" />
+        <locoType name="Diesel" />
+        <locoType name="Electric" />
+        <locoType name="Engine" />
+        <locoType name="Gas Turbine" />
+        <locoType name="Steam" />
+        <locoType name="Steam-heavy" />
+        <locoType name="Steam-light" />
+        <locoType name="Steam-mixed" />
+        <locoType name="Steam-pass" />
+        <locoType name="Switcher" />
+      </types>
+      <track id="2s1" name="Main Track" locType="Staging" dir="15" length="400" moves="3" blockingOrder="0">
+        <types>
+          <carType name="Baggage" />
+          <carType name="Boxcar" />
+          <carType name="Caboose" />
+          <carType name="Coal" />
+          <carType name="Coilcar" />
+          <carType name="FlatBHPaper" />
+          <carType name="FlatBHWood" />
+          <carType name="FlatBulkHead" />
+          <carType name="FlatTimber" />
+          <carType name="FlatTrailer" />
+          <carType name="FlatWood" />
+          <carType name="Flatcar" />
+          <carType name="Gon-scrap" />
+          <carType name="Gondola" />
+          <carType name="HopChem" />
+          <carType name="HopCmnt" />
+          <carType name="HopCoal" />
+          <carType name="HopCoal-Ety" />
+          <carType name="HopGrain" />
+          <carType name="HopSand" />
+          <carType name="Hopper" />
+          <carType name="MOW" />
+          <carType name="MOWBox" />
+          <carType name="Passenger" />
+          <carType name="ReefMech" />
+          <carType name="Reefer" />
+          <carType name="ReeferIce" />
+          <carType name="Stock" />
+          <carType name="Tank Food" />
+          <carType name="Tank Gas" />
+          <carType name="Tank Kero" />
+          <carType name="Tank Oil" />
+          <carType name="Tank Veg" />
+          <locoType name="Diesel" />
+          <locoType name="Electric" />
+          <locoType name="Engine" />
+          <locoType name="Gas Turbine" />
+          <locoType name="Steam" />
+          <locoType name="Steam-heavy" />
+          <locoType name="Steam-light" />
+          <locoType name="Steam-mixed" />
+          <locoType name="Steam-pass" />
+          <locoType name="Switcher" />
+        </types>
+      </track>
+    </location>
+  </locations>
+  <schedules />
+</operations-config>

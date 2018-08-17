@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd"/>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="true" name="Active Delay" order="8" width="75"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="State" order="2" width="126"/>
+                <column hidden="false" name="Inverted" order="5" width="48"/>
+                <column hidden="true" name="InActive Delay" order="9" width="75"/>
+                <column hidden="true" name="Use Global Delay" order="7" width="75"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalMastTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="Lit" order="7" width="48"/>
+                <column hidden="false" name="Held" order="8" width="48"/>
+                <column hidden="false" name="Edit" order="5" width="92"/>
+                <column hidden="false" name="Edit Logic" order="6" width="92"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+                <column hidden="false" name="Aspect" order="2" width="126"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LogixTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="191"/>
+                <column hidden="false" name="Enabled" order="2" width="126"/>
+                <column hidden="false" name="System Name" order="0" width="136"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:Sprog">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="true" name="Thrown Speed" order="17" width="75"/>
+                <column hidden="true" name="Lock Mode" order="14" width="75"/>
+                <column hidden="true" name="Closed Speed" order="16" width="75"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="true" name="Mode" order="9" width="75"/>
+                <column hidden="true" name="Decoder" order="15" width="75"/>
+                <column hidden="false" name="Locked" order="6" width="70"/>
+                <column hidden="true" name="Automate" order="12" width="75"/>
+                <column hidden="true" name="Feedback" order="8" width="75"/>
+                <column hidden="false" name="Inverted" order="5" width="70"/>
+                <column hidden="true" name="Sensor 2" order="11" width="75"/>
+                <column hidden="false" name="Cmd" order="2" width="126"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+                <column hidden="true" name="Sensor 1" order="10" width="75"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LRouteTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="279"/>
+                <column hidden="false" name="User Name" order="1" width="279"/>
+                <column hidden="false" name="Enabled" order="2" width="59"/>
+                <column hidden="false" name="System Name" order="0" width="224"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:All">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="180"/>
+                <column hidden="false" name="Intensity" order="6" width="70"/>
+                <column hidden="false" name="State" order="2" width="67"/>
+                <column hidden="false" name="Enabled" order="5" width="70"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:XBee">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="true" name="Active Delay" order="8" width="75"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="State" order="2" width="126"/>
+                <column hidden="false" name="Inverted" order="5" width="48"/>
+                <column hidden="true" name="InActive Delay" order="9" width="75"/>
+                <column hidden="true" name="Use Global Delay" order="7" width="75"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalMastLogicTableAction">
+            <columns>
+                <column hidden="false" name="Delete" order="5" width="85"/>
+                <column hidden="false" name="Destination" order="2" width="114"/>
+                <column hidden="false" name="Comment" order="4" width="75"/>
+                <column hidden="false" name="Enabled" order="6" width="59"/>
+                <column hidden="false" name="Edit" order="7" width="59"/>
+                <column hidden="false" name="Appearance" order="1" width="114"/>
+                <column hidden="false" name="Source" order="0" width="114"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Rfid">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="true" name="Active Delay" order="8" width="75"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="State" order="2" width="126"/>
+                <column hidden="false" name="Inverted" order="5" width="48"/>
+                <column hidden="true" name="InActive Delay" order="9" width="75"/>
+                <column hidden="true" name="Use Global Delay" order="7" width="75"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:XBee">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="true" name="Thrown Speed" order="17" width="75"/>
+                <column hidden="true" name="Lock Mode" order="14" width="75"/>
+                <column hidden="true" name="Closed Speed" order="16" width="75"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="true" name="Mode" order="9" width="75"/>
+                <column hidden="true" name="Decoder" order="15" width="75"/>
+                <column hidden="false" name="Locked" order="6" width="70"/>
+                <column hidden="true" name="Automate" order="12" width="75"/>
+                <column hidden="true" name="Feedback" order="8" width="75"/>
+                <column hidden="false" name="Inverted" order="5" width="70"/>
+                <column hidden="true" name="Sensor 2" order="11" width="75"/>
+                <column hidden="false" name="Cmd" order="2" width="126"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+                <column hidden="true" name="Sensor 1" order="10" width="75"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalHeadTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="State" order="2" width="84"/>
+                <column hidden="false" name="Lit" order="5" width="48"/>
+                <column hidden="false" name="Held" order="6" width="48"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SectionTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="191"/>
+                <column hidden="false" name="Last Block" order="6" width="169"/>
+                <column hidden="false" name="State" order="2" width="70"/>
+                <column hidden="false" name="First Block" order="5" width="169"/>
+                <column hidden="false" name="System Name" order="0" width="103"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="Where seen" order="5" width="136"/>
+                <column hidden="false" name="System Name" order="0" width="136"/>
+                <column hidden="false" name="Tag ID" order="2" width="114"/>
+                <column hidden="false" name="When seen" order="6" width="136"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:All">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="true" name="Thrown Speed" order="17" width="75"/>
+                <column hidden="true" name="Lock Mode" order="14" width="75"/>
+                <column hidden="true" name="Closed Speed" order="16" width="75"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="true" name="Mode" order="9" width="75"/>
+                <column hidden="true" name="Decoder" order="15" width="75"/>
+                <column hidden="false" name="Locked" order="6" width="70"/>
+                <column hidden="true" name="Automate" order="12" width="75"/>
+                <column hidden="true" name="Feedback" order="8" width="75"/>
+                <column hidden="false" name="Inverted" order="5" width="70"/>
+                <column hidden="true" name="Sensor 2" order="11" width="75"/>
+                <column hidden="false" name="Cmd" order="2" width="126"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+                <column hidden="true" name="Sensor 1" order="10" width="75"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.BlockTableAction">
+            <columns>
+                <column hidden="false" name="Speed" order="14" width="81"/>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="Reporter" order="11" width="92"/>
+                <column hidden="false" name="Permissive" order="13" width="81"/>
+                <column hidden="false" name="Edit" order="5" width="81"/>
+                <column hidden="false" name="Direction" order="6" width="81"/>
+                <column hidden="false" name="Length" order="7" width="81"/>
+                <column hidden="false" name="State" order="9" width="92"/>
+                <column hidden="false" name="Value" order="2" width="246"/>
+                <column hidden="false" name="Use Current?" order="12" width="81"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+                <column hidden="false" name="Curvature" order="8" width="92"/>
+                <column hidden="false" name="Sensor" order="10" width="92"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TurnoutTableAction:Internal">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="true" name="Thrown Speed" order="17" width="75"/>
+                <column hidden="true" name="Lock Mode" order="14" width="75"/>
+                <column hidden="true" name="Closed Speed" order="16" width="75"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="true" name="Mode" order="9" width="75"/>
+                <column hidden="true" name="Decoder" order="15" width="75"/>
+                <column hidden="false" name="Locked" order="6" width="70"/>
+                <column hidden="true" name="Automate" order="12" width="75"/>
+                <column hidden="true" name="Feedback" order="8" width="75"/>
+                <column hidden="false" name="Inverted" order="5" width="70"/>
+                <column hidden="true" name="Sensor 2" order="11" width="75"/>
+                <column hidden="false" name="Cmd" order="2" width="126"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+                <column hidden="true" name="Sensor 1" order="10" width="75"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SignalGroupTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="2" width="70"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="Enabled" order="4" width="70"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.TransitTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="191"/>
+                <column hidden="false" name="State" order="2" width="70"/>
+                <column hidden="false" name="System Name" order="0" width="103"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.RouteTableAction">
+            <columns>
+                <column hidden="false" name="Locked" order="6" width="70"/>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="Enabled" order="5" width="70"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.ReporterTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="Report" order="2" width="246"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="Last Report" order="5" width="246"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:XBee">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="180"/>
+                <column hidden="false" name="Intensity" order="6" width="70"/>
+                <column hidden="false" name="State" order="2" width="67"/>
+                <column hidden="false" name="Enabled" order="5" width="70"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="true" name="Active Delay" order="8" width="75"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="State" order="2" width="126"/>
+                <column hidden="false" name="Inverted" order="5" width="48"/>
+                <column hidden="true" name="InActive Delay" order="9" width="75"/>
+                <column hidden="true" name="Use Global Delay" order="7" width="75"/>
+                <column hidden="false" name="System Name" order="0" width="127"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.MemoryTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="169"/>
+                <column hidden="false" name="Value" order="2" width="246"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.LightTableAction:Internal">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="169"/>
+                <column hidden="false" name="User Name" order="1" width="180"/>
+                <column hidden="false" name="Intensity" order="6" width="70"/>
+                <column hidden="false" name="State" order="2" width="67"/>
+                <column hidden="false" name="Enabled" order="5" width="70"/>
+                <column hidden="false" name="System Name" order="0" width="59"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+    </tableDetails>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="Add/Edit Id Tag" locX="23.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrix.ieee802154.swing.mon.IEEE802154MonFrame" height="290.0" locX="414.0" locY="395.0" width="881.0"/>
+        <window xmlns="" class="Add Reporter Label" height="124.0" locX="75.0" locY="34.0" width="263.0"/>
+        <window xmlns="" class="Edit Track Segment" locX="75.0" locY="62.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Reporters" height="543.0" locX="65.0" locY="202.0" width="1295.0"/>
+        <window xmlns="" class="jmri.jmrit.logix.NXFrame" locX="65.0" locY="24.0"/>
+        <window xmlns="" class="jmri.jmrix.ieee802154.xbee.swing.nodeconfig.NodeConfigFrame" height="306.0" locX="100.0" locY="58.0" width="1196.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="543.0" locX="75.0" locY="34.0" width="1297.0"/>
+        <window xmlns="" class="jmri.jmrix.ieee802154.swing.mon.IEEE802154MonFrame:1" height="289.0" locX="65.0" locY="52.0" width="887.0"/>
+        <window xmlns="" class="jmri.jmrix.sprog.sprogmon.SprogMonFrame" height="290.0" locX="111.0" locY="89.0" width="881.0"/>
+        <window xmlns="" class="apps.gui3.TabbedPreferencesAction$1:Preferences" height="385.0" locX="75.0" locY="90.0" width="913.0"/>
+        <window xmlns="" class="jmri.jmrix.ieee802154.swing.nodeconfig.AddNodeFrame" height="168.0" locX="336.0" locY="414.0" width="437.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:XBee Switching Demo" locX="159.0" locY="534.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster" locX="0.0" locY="0.0">
+            <properties>
+                <property>
+                    <key>defaultRosterGroup</key>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:ID Tags" height="543.0" locX="75.0" locY="34.0" width="1295.0"/>
+        <window xmlns="" class="PanelPro" height="279.0" locX="337.0" locY="243.0" width="681.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Id Tags" height="545.0" locX="118.0" locY="130.0" width="1756.0"/>
+        <window xmlns="" class="jmri.jmrix.ieee802154.xbee.swing.nodeconfig.AddNodeFrame" height="145.0" locX="619.0" locY="600.0" width="362.0"/>
+    </windowDetails>
+</auxiliary-configuration>

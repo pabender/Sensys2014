@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>3</minor>
+    <test>3</test>
+    <modifier>.3ish</modifier>
+  </jmriversion>
+  <connection userName="XBee" systemPrefix="Z" manufacturer="IEEE 802.15.4" disabled="no" port="/dev/ttyUSB0" speed="57,600 baud" class="jmri.jmrix.ieee802154.xbee.configurexml.ConnectionConfigXml">
+    <options />
+    <node name="1">
+      <parameter name="address">00 01 </parameter>
+      <parameter name="PAN">00 00 </parameter>
+      <parameter name="GUID">00 13 A2 00 40 60 BC E6 </parameter>
+      <parameter name="name">SPROG</parameter>
+      <parameter name="polled">no</parameter>
+      <parameter name="StreamController">jmri.jmrix.sprog.SprogCSStreamPortController</parameter>
+    </node>
+    <node name="2">
+      <parameter name="address">00 02 </parameter>
+      <parameter name="PAN">00 00 </parameter>
+      <parameter name="GUID">FF FF FF FF FF FF FF FF </parameter>
+      <parameter name="name">RFID</parameter>
+      <parameter name="polled">no</parameter>
+    </node>
+    <node name="16">
+      <parameter name="address">00 10 </parameter>
+      <parameter name="PAN">00 00 </parameter>
+      <parameter name="GUID">00 13 A2 00 40 3D 44 1C </parameter>
+      <parameter name="name">YARD INPUT</parameter>
+      <parameter name="polled">no</parameter>
+    </node>
+  </connection>
+  <fileLocations class="apps.configurexml.FileLocationPaneXml">
+    <fileLocation defaultScriptLocation="scripts:/" />
+    <fileLocation defaultUserLocation="profile:" />
+  </fileLocations>
+  <gui LAFclass="Metal" class="apps.configurexml.GuiLafConfigPaneXml" LocaleLanguage="en" LocaleCountry="US" LocaleVariant="" nonStandardMouseEvent="no" />
+  <console class="apps.configurexml.SystemConsoleConfigPanelXml" scheme="0" fontfamily="Monospaced" fontsize="12" fontstyle="0" wrapstyle="2" />
+  <programmer verifyBeforeWrite="no" class="jmri.jmrit.symbolicprog.configurexml.ProgrammerConfigPaneXml" />
+  <managerdefaults class="jmri.managers.configurexml.ManagerDefaultSelectorXml">
+    <setting>
+      <key>jmri.ThrottleManager</key>
+      <value>Sprog</value>
+    </setting>
+    <setting>
+      <key>jmri.AddressedProgrammerManager</key>
+      <value>Sprog</value>
+    </setting>
+    <setting>
+      <key>jmri.PowerManager</key>
+      <value>Sprog</value>
+    </setting>
+    <setting>
+      <key>jmri.CommandStation</key>
+      <value>Sprog</value>
+    </setting>
+  </managerdefaults>
+  <perform name="jmri.configurexml.LoadXmlConfigAction" type="Button" class="apps.configurexml.CreateButtonModelXml" />
+  <perform name="settings:sensys-2014/XBeeRfidSystemConnectionTest.py" type="ScriptFile" class="apps.configurexml.PerformScriptModelXml" />
+  <!--Written by JMRI version 4.3.3ish-201602032007-paul-Rc567112 on Wed Feb 03 15:07:54 EST 2016 $Id$-->
+</layout-config>

@@ -1,0 +1,23 @@
+RFID Test Layout
+ 
+Switch List for Yard
+Valid 8/26/2016 11:40
+ 
+Scheduled work for train (switcher)
+Departs Main Track at 00:00 expected arrival 00:04, arrives Eastbound
+Train (switcher) direction change, departs Westbound
+Train departs Yard Westbound with 0 cars, 54 feet, 115 tons
+No car pick ups for train (switcher) at this location
+No car set outs for train (switcher) at this location
+ 
+ 
+Switch List by Track
+ 
+T1
+Hold MKTT 3554 Flatcar
+Hold RDG 33266 Gondola
+Hold WSOR 503196 Boxcar
+ 
+T2
+Hold NONX 000001 Boxcar
+Hold SLSF 15535 Boxcar

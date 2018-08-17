@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServerPreferences clickDelay="1" refreshDelay="5" useAjax="true" simple="false" allowRemoteConfig="false" readonlyPower="true" disallowedFrames="[DecoderPro, PanelPro, LocoNet Simulator, Preferences, WiThrottle, Change Signal Head Icons, Item Palette]" port="12080" railRoadName="My JMRI Railroad">
+  <disallowedFrames>
+    <frame>DecoderPro</frame>
+    <frame>PanelPro</frame>
+    <frame>LocoNet Simulator</frame>
+    <frame>Preferences</frame>
+    <frame>WiThrottle</frame>
+    <frame>Change Signal Head Icons</frame>
+    <frame>Item Palette</frame>
+  </disallowedFrames>
+  <!--Written by JMRI version 20150415-2112-faculty on Wed Apr 15 16:18:06 CDT 2015 $Id: XmlFile.java 28771 2015-02-22 16:58:13Z rhwood $-->
+</WebServerPreferences>
