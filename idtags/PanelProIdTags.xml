@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/idtags.xsl" type="text/xsl"?>
 <idtagtable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/idtags.xsd">
-  <!--Written by JMRI version 4.11.3ish+paul+20180130T2011Z+R6495e26 on Tue Jan 30 15:15:52 EST 2018-->
+  <!--Written by JMRI version 4.15.3ish+paul+20190129T1711Z+R44302e19b5 on Tue Jan 29 12:26:09 EST 2019-->
   <configuration>
     <storeState>yes</storeState>
     <useFastClock>no</useFastClock>
   </configuration>
   <idtags>
     <idtag>
+      <systemName>IDA2009100D9</systemName>
+      <userName>NONX000001</userName>
+      <whereLastSeen>FR1</whereLastSeen>
+      <whenLastSeen>Jan 10, 2017 2:55:19 PM</whenLastSeen>
+    </idtag>
+    <idtag>
       <systemName>IDA20091001A</systemName>
       <userName>RDG33266</userName>
       <whereLastSeen>FR1</whereLastSeen>
-      <whenLastSeen>Aug 22, 2016 12:21:15 PM</whenLastSeen>
+      <whenLastSeen>Jan 29, 2019 12:25:30 PM</whenLastSeen>
     </idtag>
     <idtag>
       <systemName>IDA20091001B</systemName>
@@ -30,12 +36,6 @@
       <userName>SLSF15535</userName>
       <whereLastSeen>FR1</whereLastSeen>
       <whenLastSeen>Sep 7, 2016 3:14:46 PM</whenLastSeen>
-    </idtag>
-    <idtag>
-      <systemName>IDA2009100D9</systemName>
-      <userName>NONX000001</userName>
-      <whereLastSeen>FR1</whereLastSeen>
-      <whenLastSeen>Jan 10, 2017 2:55:19 PM</whenLastSeen>
     </idtag>
   </idtags>
 </idtagtable>
