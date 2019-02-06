@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.15.3ish+paul+20190129T1711Z+R44302e19b5 on Tue Jan 29 12:25:35 EST 2019-->
+  <!--Written by JMRI version 4.15.3ish+paul+20190204T1709Z+Rf1cf9be9ae on Mon Feb 04 13:14:54 EST 2019-->
   <roads>
     <road name="AA" />
     <road name="ACL" />
@@ -214,10 +214,10 @@
   <options />
   <newKernels />
   <cars>
-    <car id="MKTT3554" roadName="MKTT" roadNumber="3554" type="Flatcar" length="54" color="Pink" weight="4.7" weightTons="94" locationId="1" secLocationId="1s3" lastRouteId="1" moves="1" date="01/30/2018 15:15:12" selected="false" rfid="MKTT3554" load="E" />
+    <car id="MKTT3554" roadName="MKTT" roadNumber="3554" type="Flatcar" length="54" color="Pink" weight="4.7" weightTons="94" locationId="1" secLocationId="1s3" lastRouteId="1" moves="1" date="02/04/2019 13:12:38" selected="false" rfid="MKTT3554" load="E" />
     <car id="NONX000001" roadName="NONX" roadNumber="000001" type="Boxcar" length="54" color="Pink" weight="4.7" weightTons="94" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="08/22/2016 12:17:23" selected="false" rfid="NONX000001" load="E" />
-    <car id="RDG33266" roadName="RDG" roadNumber="33266" type="Gondola" length="54" color="Pink" weight="4.7" weightTons="94" locationId="1" secLocationId="1s3" lastRouteId="1" moves="2" date="01/29/2019 12:25:30" selected="false" lastLocationId="2" rfid="RDG33266" load="E" />
-    <car id="SLSF15535" roadName="SLSF" roadNumber="15535" type="Boxcar" length="54" color="Blue" weight="4.7" weightTons="94" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="08/22/2016 12:17:23" selected="false" rfid="SLSF15535" load="E" rweDestId="1" />
+    <car id="RDG33266" roadName="RDG" roadNumber="33266" type="Gondola" length="54" color="Pink" weight="4.7" weightTons="94" locationId="1" secLocationId="1s3" lastRouteId="1" moves="2" date="02/04/2019 13:11:40" selected="false" lastLocationId="2" rfid="RDG33266" load="E" />
+    <car id="SLSF15535" roadName="SLSF" roadNumber="15535" type="Boxcar" length="54" color="Blue" weight="4.7" weightTons="94" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="02/04/2019 13:14:23" selected="false" rfid="SLSF15535" load="E" rweDestId="1" />
     <car id="WSOR503196" roadName="WSOR" roadNumber="503196" type="Boxcar" length="54" color="Pink" weight="4.7" weightTons="94" locationId="1" secLocationId="1s3" lastRouteId="1" moves="1" date="08/22/2016 12:17:23" selected="false" rfid="WSOR503196" load="E" />
   </cars>
 </operations-config>
