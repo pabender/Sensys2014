@@ -1,6 +1,6 @@
 This repository contains JMRI control panels and scripts used to control a small RFID test layout.  The layout is configured as an IngleNook siding switching puzle. More information about the layout can be found at
 
-http://nscaleintermodal.com/layout/RFIDTestLayout/
+http://www.nscaleintermodal.com/layout/RFIDTestLayout/
 
 Of interest to JMRI users is how this repository shows an example of using several features.
 
